@@ -13,7 +13,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+   // override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+   // {
+    //    if segue.identifier == mysegue {
+      //  let nvc = segue.destination as! ViewController2
+      //  let randomnumber = Int.random(in: 1...3)
+       // blue1
+     //   }
+    }
 
 }
 
