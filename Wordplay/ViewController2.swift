@@ -9,13 +9,17 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+  
+    
+    @IBOutlet weak var endLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        endLabel.text = "My uncle wants to go the" + ""
         // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
