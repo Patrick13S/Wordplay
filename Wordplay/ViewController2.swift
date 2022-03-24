@@ -12,11 +12,11 @@ class ViewController2: UIViewController {
   
     
     @IBOutlet weak var endLabel: UILabel!
-    
+    var receiver = ""
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        endLabel.text = "My uncle wants to go the" + ""
+        endLabel.text = "My uncle wants to go the " + receiver+"."
         // Do any additional setup after loading the view.
     }
     
